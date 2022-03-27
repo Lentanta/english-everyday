@@ -1,6 +1,7 @@
 .main-page {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 30px
 }
 
 .title {
@@ -8,4 +9,26 @@
   text-align: center;
   text-transform: uppercase;
   margin-top: 8px;
+}
+
+.vn-word {
+  color: #d7dedc;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.answer-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
 }
